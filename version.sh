@@ -9,9 +9,6 @@ set -e
 
 if [ $currnet_version == $public_version ]
 then
-	echo sleep10
-	sleep 10
-	echo done
 	exit 0
 else
 	/home/rustserver/rustserver stop
